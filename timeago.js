@@ -1,7 +1,3 @@
-<!-- jQuery -->
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js' type='text/javascript'/>
-<script src='https://cdn.rawgit.com/Balipack/Wisata-Bali/master/jquery.timeago.js' type='text/javascript'/>
-<script type='text/javascript'>
 jQuery(document).ready(function() {
 jQuery(&quot;abbr.timeago&quot;).timeago();
 });
@@ -22,4 +18,3 @@ months: &quot;%d bulan&quot;,
 year: &quot;sekitar setahun&quot;,
 years: &quot;%d tahun&quot;
 };
-</script>
