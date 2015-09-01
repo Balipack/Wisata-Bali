@@ -61,7 +61,7 @@ flag=1;
 if(displaymore==true) 
 {
 if (flag==1) towrite=towrite+' | ';
-towrite=towrite+'<a href="'+posturl+'" class="url" target ="_top">Read more&#187;&#187;</a>';
+towrite=towrite+'<a href="'+posturl+'" class="url" target ="_top">Detail&#187;&#187;</a>';
 flag=1;
 ;
 }
