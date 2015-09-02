@@ -11,7 +11,7 @@ function showrecentposts(json)
         break;
       }}
     posttitle = posttitle.link(posturl);
-    if (standardstyling) document.write('<»>');
+    if (standardstyling) document.write('&#187');
     document.write(posttitle);}
-    if (standardstyling) document.write('<»>');
+    if (standardstyling) document.write('&#187');
 }
