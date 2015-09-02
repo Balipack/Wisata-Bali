@@ -11,7 +11,7 @@ function showrecentposts(json)
         break;
       }}
     posttitle = posttitle.link(posturl);
-    if (standardstyling) document.write('http://2.bp.blogspot.com/-YE7a0V5zOAg/VebC3LSn9_I/AAAAAAAAAjc/mS7SS_2Rl4k/s1600/icon%2Bfooter.png';
+    if (standardstyling) document.write('<li>');
     document.write(posttitle);}
     if (standardstyling) document.write('</li>');
 }
