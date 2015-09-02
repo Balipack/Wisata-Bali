@@ -1,82 +1,46 @@
 /* Our Team + Portfolio Pages
---------------------------------------------------
-------------------------------------------------*/
-.single-portfolio .top-image h2 .container { position:relative; }
-.single-portfolio .top-image .navigation-prev a { float:left; display:block; opacity:1; color:#fff; padding:14px 29px; background:url("../img/back-btn.gif") no-repeat 11px 9px #4F1731; background-size:6px 6px; -moz-background-size:6px 6px; -webkit-background-size:6px 6px; -o-background-size:6px 6px; text-transform:uppercase; line-height:1; cursor:pointer; font-size:13px; line-height:13px; }
-.single-portfolio .top-image .navigation-next a { float:left; display:block; opacity:1; color:#fff; padding:14px 29px; background:url("../img/forward-btn.gif") no-repeat 75px 9px #4F1731; background-size:6px 6px; -moz-background-size:6px 6px; -webkit-background-size:6px 6px; -o-background-size:6px 6px; text-transform:uppercase; line-height:1; cursor:pointer; font-size:13px; line-height:13px; margin-left:10px; }
-
-.subpage .main-content article ul.team-tabs,
-.subpage .main-content article ul.portfolio-tabs { position:relative; border-bottom:0px; padding:0px; }
-.subpage .main-content article ul.portfolio-tabs li,
-.subpage .main-content article ul.team-tabs li { margin:0 16px 8px 0; width:100%; }
-.subpage .main-content article ul.portfolio-tabs li:last-child,
-.subpage .main-content article ul.team-tabs li:last-child { margin:0px; }
-.subpage .main-content article ul.team-tabs li a:active,
-.subpage .main-content article ul.team-tabs li a:link,
-.subpage .main-content article ul.team-tabs li a:visited,
-.subpage .main-content article ul.portfolio-tabs li a:active,
-.subpage .main-content article ul.portfolio-tabs li a:link,
-.subpage .main-content article ul.portfolio-tabs li a:visited { font-size:13px; line-height:13px; /*text-transform:uppercase;*/ font-family:"NHaasGroteskDSW01-65Md"; padding:17px 35px; border:2px solid #d1d2d4; border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; -o-border-radius:0px; position:relative; background:#fff; color:#d1d2d4; margin-right:0px; outline:none; text-align:center; }
-.subpage .main-content article ul.team-tabs li a:active,
-.subpage .main-content article ul.team-tabs li a:link,
-.subpage .main-content article ul.team-tabs li a:visited,
-.subpage .main-content article ul.team-tabs li a:hover,
-.subpage .main-content article ul.team-tabs li a:focus,
-.subpage .main-content article ul.portfolio-tabs li a:active,
-.subpage .main-content article ul.portfolio-tabs li a:link,
-.subpage .main-content article ul.portfolio-tabs li a:visited,
-.subpage .main-content article ul.portfolio-tabs li a:hover,
-.subpage .main-content article ul.portfolio-tabs li a:focus { -webkit-transition: border-color 200ms ease-in-out, color 200ms ease-in-out, background 200ms ease-in-out, opacity 200ms ease-in-out !important; -moz-transition: color 200ms ease-in-out, border-color 200ms ease-in-out, background 200ms ease-in-out, opacity 200ms ease-in-out !important; -ms-transition: border-color 200ms ease-in-out, color 200ms ease-in-out, background 200ms ease-in-out, opacity 200ms ease-in-out !important; -o-transition: border-color 200ms ease-in-out, color 200ms ease-in-out, background 200ms ease-in-out, opacity 200ms ease-in-out !important; transition: border-color 200ms ease-in-out, color 200ms ease-in-out, background 200ms ease-in-out, opacity 200ms ease-in-out !important; outline: 0; }
-.subpage .main-content article ul.team-tabs li.active a,
-.subpage .main-content article ul.team-tabs li a:hover,
-.subpage .main-content article ul.team-tabs li a:focus,
-.subpage .main-content article ul.portfolio-tabs li.active a,
-.subpage .main-content article ul.portfolio-tabs li a:hover,
-.subpage .main-content article ul.portfolio-tabs li a:focus { background:#4f1731; border-color:#4f1731; color:#fff; opacity:1; }
-.subpage .main-content article ul.team-tabs li a:active > span,
-.subpage .main-content article ul.team-tabs li a:link > span,
-.subpage .main-content article ul.team-tabs li a:visited > span,
-.subpage .main-content article ul.team-tabs li a:hover > span,
-.subpage .main-content article ul.team-tabs li a:focus > span,
-.subpage .main-content article ul.portfolio-tabs li a:active > span,
-.subpage .main-content article ul.portfolio-tabs li a:link > span,
-.subpage .main-content article ul.portfolio-tabs li a:visited > span,
-.subpage .main-content article ul.portfolio-tabs li a:hover > span,
-.subpage .main-content article ul.portfolio-tabs li a:focus > span { display:none; }
-.subpage .main-content article ul.team-tabs li.active a > span,
-.subpage .main-content article ul.portfolio-tabs li.active a > span { position:absolute; background:url("../img/tab-span.png") no-repeat transparent; background-size:15px 7px; -moz-background-size:15px 7px; -webkit-background-size:15px 7px; -o-background-size:15px 7px; width:15px; height:7px; top:48px; left:50%; margin-left:-7px; display:block; }
-
-.subpage .main-content article .team-tab-content {  }
-.subpage .main-content article .team-tab-content .tab-pane { padding:35px 0; }
-.subpage .main-content article .team-tab-content .tab-pane .team-member-link { float:left; margin:0 0 20px 0; width:100%; overflow:hidden; opacity:1; }
-.subpage .main-content article .team-tab-content .tab-pane .team-member-link:nth-child(5n) { margin-right:0px; }
-.subpage .main-content article .team-tab-content .tab-pane .team-member-link div { /*width:164px; height:164px;*/ width: 100%; height:auto; display:block; margin:0 auto; background:url("../img/hover-state.jpg") no-repeat  #4f1731 center center;}
-.subpage .main-content article .team-tab-content .tab-pane .team-member-link div img { /*width:164px;*/ width: 100%; height:auto; opacity:1; -webkit-transition: opacity 300ms ease-in-out !important; -moz-transition: opacity 300ms ease-in-out !important; -ms-transition: opacity 300ms ease-in-out !important; -o-transition: opacity 300ms ease-in-out !important; transition: opacity 300ms ease-in-out !important; outline: 0; border: 3px solid #eee;}
-.subpage .main-content article .team-tab-content .tab-pane .team-member-link:hover div img { opacity:0; -webkit-transition: opacity 300ms ease-in-out !important; -moz-transition: opacity 300ms ease-in-out !important; -ms-transition: opacity 300ms ease-in-out !important; -o-transition: opacity 300ms ease-in-out !important; transition: opacity 300ms ease-in-out !important; outline: 0; }
-.subpage .main-content article .team-tab-content .tab-pane .team-member-link h4 { width:100%; text-align:center; font-size:16px; line-height:24px; color:#333333; font-family:"NHaasGroteskDSW01-65Md"; margin-top: 10px; margin-bottom: 2px; }
-.subpage .main-content article .team-tab-content .tab-pane .team-member-link p { width:100%; text-align:center; font-size:11px; line-height:13px; color:#7f7f7f; font-family:"NHaasGroteskDSW01-65Md"; height:26px; overflow:hidden; }
-.subpage .main-content article .team-tab-content .tab-pane .team-member-link:hover h4,
-.subpage .main-content article .team-tab-content .tab-pane .team-member-link:hover p { -webkit-transition: color 300ms ease-in-out !important; -moz-transition: color 300ms ease-in-out !important; -ms-transition: color 300ms ease-in-out !important; -o-transition: color 300ms ease-in-out !important; transition: color 300ms ease-in-out !important; outline: 0; }
-.subpage .main-content article .team-tab-content .tab-pane .team-member-link:hover h4,
-.subpage .main-content article .team-tab-content .tab-pane .team-member-link:hover p { color:#4F1731; -webkit-transition: color 300ms ease-in-out !important; -moz-transition: color 300ms ease-in-out !important; -ms-transition: color 300ms ease-in-out !important; -o-transition: color 300ms ease-in-out !important; transition: color 300ms ease-in-out !important; outline: 0; }
-
-.subpage .main-content article .team-tab-content .tab-pane .team-member-link div.blankteam {background: #fff !important;}
-
-.single-our-team aside .sub-nav img { width:100%; height:auto; margin-bottom:30px; }
-
-.subpage .main-content article .portfolio-tab-content {  }
-.subpage .main-content article .portfolio-tab-content .tab-pane { padding:35px 0; }
-.subpage .main-content article .portfolio-tab-content .tab-pane .portfolio-list-link { display:table; margin:0 auto 20px; height:154px; width:214px; overflow:hidden; border:3px solid #f7f7f7;  outline: 0; background:url("../img/hover-state.jpg") no-repeat  #4f1731 center center; }
-.subpage .main-content article .portfolio-tab-content .tab-pane .portfolio-list-link:hover { opacity:1; }
-.subpage .main-content article .portfolio-tab-content .tab-pane .portfolio-list-link div { width:100%; height:100%; display:table-cell; vertical-align:middle; text-align:center; background:#fff; opacity:1; -webkit-transition: opacity 300ms ease-in-out !important; -moz-transition: opacity 300ms ease-in-out !important; -ms-transition: opacity 300ms ease-in-out !important; -o-transition: opacity 300ms ease-in-out !important; transition: opacity 300ms ease-in-out !important; }
-.subpage .main-content article .portfolio-tab-content .tab-pane .portfolio-list-link:hover div { opacity:0; -webkit-transition: opacity 300ms ease-in-out !important; -moz-transition: opacity 300ms ease-in-out !important; -ms-transition: opacity 300ms ease-in-out !important; -o-transition: opacity 300ms ease-in-out !important; transition: opacity 300ms ease-in-out !important; }
-.subpage .main-content article .portfolio-tab-content .tab-pane .portfolio-list-link  div img { width:160px; height:auto; }
-
-.single-portfolio aside .portfolio-sidebar img { width:100%; height:auto; margin-bottom:26px; }
-.single-portfolio aside .portfolio-sidebar h5 { color:#4f1731; font-size:12px; line-height:18px; font-family:"NHaasGroteskDSW01-65Md"; text-transform:uppercase; }
-.single-portfolio aside .portfolio-sidebar h5 + p { font-family:"NHaasGroteskDSW01-65Md"; color:#858585; font-size:12px; line-height:18px; margin-bottom:20px; }
-.single-portfolio aside .portfolio-sidebar a:active,
-.single-portfolio aside .portfolio-sidebar a:link,
-.single-portfolio aside .portfolio-sidebar a:visited,
-.single-portfolio aside .portfolio-sidebar a:hover,
-.single-portfolio aside .portfolio-sidebar a:focus { float:left; display:block; opacity:1; color:#fff; padding:14px 29px 14px 46px; background:url("../img/link-ico.png") no-repeat 17px 11px #4F1731; background-size:18px 18px; -moz-background-size:18px 18px; -webkit-background-size:18px 18px; -o-background-size:18px 18px; text-transform:uppercase; line-height:1; cursor:pointer; -webkit-transition: background-color 250ms ease-in-out; -moz-transition: background-color 250ms ease-in-out; -ms-transition: background-color 250ms ease-in-out; -o-transition: background-color 250ms ease-in-out; transition: background-color 250ms ease-in-out;}
+	--------------------------------------------------
+	------------------------------------------------*/
+	.single-portfolio .top-image .navigation-prev a { position:absolute; right:100px; top:0; padding:11px 22px; font-size:11px; line-height:11px; -webkit-transition: background-color 250ms ease-in-out; -moz-transition: background-color 250ms ease-in-out; -ms-transition: background-color 250ms ease-in-out; -o-transition: background-color 250ms ease-in-out; transition: background-color 250ms ease-in-out;}
+	.single-portfolio .top-image .navigation-next a { position:absolute; right:15px; top:0; padding:11px 22px; font-size:11px; line-height:11px; background:url("../img/forward-btn.gif") no-repeat scroll 56px 9px #4F1731; background-size:6px 6px; -moz-background-size:6px 6px; -webkit-background-size:6px 6px; -o-background-size:6px 6px; -webkit-transition: background-color 250ms ease-in-out; -moz-transition: background-color 250ms ease-in-out; -ms-transition: background-color 250ms ease-in-out; -o-transition: background-color 250ms ease-in-out; transition: background-color 250ms ease-in-out;}
+	
+	.subpage .main-content article ul.team-tabs,
+	.subpage .main-content article ul.portfolio-tabs { position:relative; border-bottom:0px; }
+	.subpage .main-content article ul.portfolio-tabs li { margin:0 2px 0 0; width:auto; }
+	.subpage .main-content article ul.team-tabs li { margin:0 5px 0 0; width:auto; }
+	.subpage .main-content article ul.portfolio-tabs li:last-child,
+	.subpage .main-content article ul.team-tabs li:last-child { margin:0px; }
+	.subpage .main-content article ul.team-tabs li a:active,
+	.subpage .main-content article ul.team-tabs li a:link,
+	.subpage .main-content article ul.team-tabs li a:visited,
+	.subpage .main-content article ul.portfolio-tabs li a:active,
+	.subpage .main-content article ul.portfolio-tabs li a:link,
+	.subpage .main-content article ul.portfolio-tabs li a:visited { font-size:11px; line-height:11px; padding:10px 10px; border:1px solid #d1d2d4; }
+	.subpage .main-content article ul.team-tabs li.active a > span,
+	.subpage .main-content article ul.portfolio-tabs li.active a > span { top:30px; }
+	
+	.subpage .main-content article .team-tab-content .tab-pane { padding:27px 0; }
+	.subpage .main-content article .team-tab-content .tab-pane .team-member-link { margin:0 17px 27px 0; width:127px; overflow:hidden; float:left; min-height:55px; }
+	.subpage .main-content article .team-tab-content .tab-pane .team-member-link:nth-child(5n) { margin-right:0px; }
+	.subpage .main-content article .team-tab-content .tab-pane .team-member-link div { width:127px; height:127px; }
+	.subpage .main-content article .team-tab-content .tab-pane .team-member-link div img { width:100%; }
+	.subpage .main-content article .team-tab-content .tab-pane .team-member-link h4 { font-size:12px; line-height:14px; }
+	
+	.single-our-team aside .sub-nav img { margin-bottom:23px; }
+	
+	.subpage .main-content article .portfolio-tab-content {  }
+	.subpage .main-content article .portfolio-tab-content .tab-pane { padding:27px 0; }
+	.subpage .main-content article .portfolio-tab-content .tab-pane .portfolio-list-link { float:left; margin:0 13px 13px 0; height:119px; width:166px; border:2px solid #f7f7f7; }
+	.subpage .main-content article .portfolio-tab-content .tab-pane .portfolio-list-link:nth-child(4n) { margin-right:0px; }
+	
+	.single-portfolio .main-content article { padding:0 30px 0 0; }
+	.single-portfolio .main-content aside { padding:0 0 0 15px; }
+	
+	.single-portfolio aside .portfolio-sidebar img {  margin-bottom:20px; }
+	.single-portfolio aside .portfolio-sidebar h5 { font-size:11px; line-height:15px; }
+	.single-portfolio aside .portfolio-sidebar h5 + p { font-size:11px; line-height:15px; margin-bottom:16px; }
+	.single-portfolio aside .portfolio-sidebar a:active,
+	.single-portfolio aside .portfolio-sidebar a:link,
+	.single-portfolio aside .portfolio-sidebar a:visited,
+	.single-portfolio aside .portfolio-sidebar a:hover,
+	.single-portfolio aside .portfolio-sidebar a:focus { font-size:11px; line-height:11px; padding:11px 22px 11px 36px; background: url("../img/link-ico.png") no-repeat scroll 11px 8px / 18px 18px #4F1731; }
